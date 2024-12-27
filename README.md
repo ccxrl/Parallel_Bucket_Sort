@@ -5,6 +5,7 @@ This project demonstrates a **Two-Level Parallel Bucket Sort Algorithm** impleme
 ---
 
 ## Overview
+![image](images/fig1.png)
 
 The **Two-Level Parallel Bucket Sort** algorithm performs the following steps:
 1. Divides the input data into buckets based on the range of values.
@@ -33,7 +34,7 @@ The **Two-Level Parallel Bucket Sort** algorithm performs the following steps:
 ## Results and Insights
 
 ### Performance Graph
-![Performance Graph](path/to/graph/image.png)
+![image](images/fig2.png)
 
 ### Key Observations
 1. **Sorting Time vs. Dataset Size:**
@@ -71,9 +72,6 @@ The **Two-Level Parallel Bucket Sort** algorithm performs the following steps:
 ---
 
 ## Result Analysis
-![image](images/fig1.png)
-![image](images/fig2.png)
-
 The graph (see above) illustrates that parallelization provides substantial performance gains for larger datasets:
 
 4 threads achieve the fastest sorting time across most dataset sizes.
